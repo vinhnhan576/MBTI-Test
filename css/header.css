@@ -29,6 +29,7 @@
   font-size: 35px;
   font-weight: bold;
   font-family: "Ubuntu Condensed", sans-serif;
+  cursor: pointer;
 }
 
 button {

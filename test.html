@@ -11,60 +11,86 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="menu">
+    <div class="menu">
+        <a href="./index.html">
             <label class="logo">
                 VINHAN
             </label>
-            <button id="login-button">
-                Đăng nhập
-            </button>
-            <ul>
-                <li>
-                    <a href="./index.html">
-                        Trang chủ
-                    </a>
-                </li>
-                <li>
-                    <a href="./test.html" id="current-page">
-                        Làm bài test
-                    </a>
-                </li>
-                <li>
-                    <a href="./mbti-detail.html">
-                        Tính cách
-                    </a>
-                </li>
-            </ul>
-        </div>
+        </a>
+        <button id="login-button">
+            Đăng nhập
+        </button>
+        <ul>
+            <li>
+                <a href="./index.html">
+                    Trang chủ
+                </a>
+            </li>
+            <li>
+                <a href="./test.html" id="current-page">
+                    Làm bài test
+                </a>
+            </li>
+            <li>
+                <a href="./mbti-detail.html">
+                    Tính cách
+                </a>
+            </li>
+        </ul>
+    </div>
 
-        <div class="menu-space"></div>
+    <div class="test-page">
+        <div class="notes-box">
+            <div class="notes-title">
+                <span>Một số chú ý trước khi làm bài test MBTI:</span>
+            </div>
+            <div class="notes-list">
+                <div class="note">1. Trung thực khi trả lời câu hỏi, phân biệt giữa lý tưởng và thực tế. Kết quả
+                    của trắc nghiệm hoàn toàn là câu chuyện cá nhân của bạn, đừng để yếu tố bên ngoài tác động
+                    đến câu trả lời.</div>
+                <div class="note">2. Chúng ta trưởng thành và thay đổi từng ngày, kết quả trắc nghiệm tất nhiên
+                    có thể từ đó mà thay đổi tùy theo nhận thức và thế giới quan của mỗi người. Tốt nhất hãy làm
+                    bài kiểm tra nhiều lần và điều độ để có cái nhìn tổng quát và chính xác nhất.</div>
+                <div class="note">3. Kết quả của một trắc nghiệm tâm lý phụ thuộc rất nhiều vào tâm trạng của
+                    bạn.Tốt nhất hãy thực hiện nó trong một trạng thái tâm lý bình ổn nhất. Nếu bạn đang quá
+                    vui, buồn, phấn khích, bực bội hay đang trong quá trình thay đổi nhận thức thì sẽ không đảm
+                    bảo được độ chính xác.</div>
+            </div>
+            <div class="buttons">
+                <a href="./index.html"><button class="quit"> Thoát</button></a>
 
-        <div class="test-page">
-            <div class="notes-box">
-                <div class="notes-title">
-                    <span>Một số chú ý trước khi làm bài test MBTI:</span>
-                </div>
-                <div class="notes-list">
-                    <div class="note">1. Trung thực khi trả lời câu hỏi, phân biệt giữa lý tưởng và thực tế. Kết quả
-                        của trắc nghiệm hoàn toàn là câu chuyện cá nhân của bạn, đừng để yếu tố bên ngoài tác động
-                        đến câu trả lời.</div>
-                    <div class="note">2. Chúng ta trưởng thành và thay đổi từng ngày, kết quả trắc nghiệm tất nhiên
-                        có thể từ đó mà thay đổi tùy theo nhận thức và thế giới quan của mỗi người. Tốt nhất hãy làm
-                        bài kiểm tra nhiều lần và điều độ để có cái nhìn tổng quát và chính xác nhất.</div>
-                    <div class="note">3. Kết quả của một trắc nghiệm tâm lý phụ thuộc rất nhiều vào tâm trạng của
-                        bạn.Tốt nhất hãy thực hiện nó trong một trạng thái tâm lý bình ổn nhất. Nếu bạn đang quá
-                        vui, buồn, phấn khích, bực bội hay đang trong quá trình thay đổi nhận thức thì sẽ không đảm
-                        bảo được độ chính xác.</div>
-                </div>
-                <div class="buttons">
-                    <a href="./index.html"><button class="quit"> Thoát</button></a>
-                    
-                    <button class="start">Bắt đầu</button>
-                </div>
+                <button id="start">Bắt đầu</button>
             </div>
         </div>
+
+        <div class="test-box">
+            <header>
+                <div class="question-number">
+                    <!-- Câu 1 -->
+                </div>
+                <div class="test-title">Bài test tính cách MBTI</div>
+            </header>
+            <section>
+                <div class="question">
+                    <!-- <span>Tại một bữa tiệc, bạn sẽ:</span> -->
+                </div>
+                <div class="mpc-list">
+                    <!-- <div class="mpc">tiếp xúc với nhiều người, kể cả người lạ</div>
+                    <div class="mpc">tiếp xúc với một vài người bạn quen</div>
+                    <div class="mpc">Hông biết nữa</div> -->
+                </div>
+            </section>
+            <footer>
+                <button class="prev-question">Quay lại</button>
+                <div class="noquestion">
+                    <!-- <span><p>1</p>trên<p>70</p> câu hỏi</span> -->
+                </div>
+                <button class="next-question">Tiếp theo</button>
+            </footer>
+        </div>
     </div>
+    <script src="js/test.js"></script>
+    <script src="js/mpc.js"></script>
 </body>
 
 </html>
