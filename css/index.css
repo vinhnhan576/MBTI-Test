@@ -1,0 +1,138 @@
+svg {
+  display: block;
+}
+
+.test-button {
+  font-size: 30px;
+  margin-top: 20px;
+  float: right;
+  height: 60px;
+  width: 200px;
+}
+
+#final-button {
+  float: none;
+  margin-left: calc(50% - calc(340px / 2));
+  height: 80px;
+  width: 340px;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+  font-size: 36px;
+}
+
+#intro button a {
+  font-size: 30px;
+}
+
+.footer-page {
+  width: 100%;
+  height: 200px;
+  background-color: rgb(229, 238, 237);
+}
+
+#intro-page {
+  width: 100%;
+  height: 820px;
+  background: rgb(229, 238, 237);
+}
+
+#definition-page {
+  width: 100%;
+  height: 550px;
+  background-color: white;
+}
+
+#application-page {
+  width: 100%;
+  height: 600px;
+  background-color: rgb(229, 238, 237);
+}
+
+#message {
+  font-family: "Alegreya", serif;
+  word-spacing: -2px;
+  line-height: 50px;
+  text-align: right;
+  margin-left: 100px;
+  font-size: 45px;
+}
+#message::first-letter {
+  font-size: 80px;
+}
+
+#introduction {
+  text-align: right;
+  margin-top: 40px;
+  font-size: 36px;
+}
+
+.intro {
+  display: inline-block;
+  margin-left: 120px;
+  margin-top: 150px;
+}
+
+#intro {
+  /* background: rgba(0, 0, 0, 0.171); */
+  height: 450px;
+  width: 700px;
+}
+
+#definition {
+  width: 100%;
+  height: 450px;
+  padding: 140px 0px 0px 0px;
+}
+
+h1 {
+  font-size: 60px;
+  text-shadow: 3px 3px 0 rgba(38, 24, 77, 0.192);
+}
+
+p {
+  margin-top: 40px;
+  margin-right: 120px;
+  font-size: 36px;
+}
+
+.introduction {
+  margin: 0;
+}
+
+#application {
+  display: inline-block;
+  width: 700px;
+  height: auto;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+#application p {
+  margin-right: 0px;
+  font-size: 28px;
+  margin-top: 20px;
+}
+
+img {
+  width: 350px;
+}
+
+#intro-pic {
+  margin: 150px 230px 0px 0px;
+  float: right;
+}
+
+#definition-pic {
+  margin: 120px 120px 0px 120px;
+  width: 400px;
+  float: left;
+}
+
+#application-pic {
+  margin-right: 150px;
+  width: 500px;
+  float: right;
+}

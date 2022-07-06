@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;1,500&family=Ubuntu+Condensed&display=swap");
+
+* {
+  font-family: "Ubuntu Condensed", sans-serif;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+}
+
+.logo {
+  line-height: 80px;
+  float: left;
+  padding: 0 60px;
+
+  color: rgb(27, 26, 48);
+  font-size: 35px;
+  font-weight: bold;
+  font-family: "Ubuntu Condensed", sans-serif;
+}
+
+button {
+  color: white;
+  font-size: 20px;
+  border-radius: 40px;
+  border-color: white;
+  background: #1e1c30;
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.205);
+}
+
+button:checked {
+}
+
+#login-button {
+  line-height: 50px;
+  width: 160px;
+  float: right;
+  margin: 12px 60px;
+}
+
+.menu {
+  width: 100%;
+  height: 80px;
+  background: white;
+  box-shadow: 0px 5px rgba(0, 0, 0, 0.03);
+  position: fixed;
+  top: 0;
+}
+
+.menu ul {
+  text-align: center;
+}
+
+.menu ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+  padding: 0px 20px;
+}
+
+.menu ul li a {
+  font-size: 35px;
+  color: #aaaaaa;
+  text-align: center;
+}
+
+.menu ul li a:hover,
+#current-page {
+  font-size: 35px;
+  color: #1c1c1c;
+  padding-bottom: 16px;
+  border-bottom: solid 5px rgb(39, 39, 39);
+}
+
+.content-page {
+  width: 100%;
+  height: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
