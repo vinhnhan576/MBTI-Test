@@ -15,16 +15,7 @@ svg {
   margin-left: calc(50% - calc(340px / 2));
   height: 80px;
   width: 340px;
-}
-
-button a {
-  text-decoration: none;
-  color: white;
-  font-size: 36px;
-}
-
-#intro button a {
-  font-size: 30px;
+  font-size: 35px;
 }
 
 .footer-page {
