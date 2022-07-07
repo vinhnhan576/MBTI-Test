@@ -5,7 +5,8 @@ let questions = [
         options:[
             "tiếp xúc với nhiều người, kể cả người lạ",
             "chỉ tiếp xúc với những người mà bạn quen",
-        ]
+        ],
+        answer: -1,
     },
     {
         no: 2,
@@ -13,7 +14,8 @@ let questions = [
         options:[
             "realistic than speculative",
             "speculative than realistic",
-        ]
+        ],
+        answer: -1,
     },
     {
 
@@ -22,7 +24,8 @@ let questions = [
         options:[
             "have your \"head in the clouds\"",
             "be \"in a rut\"",
-        ]
+        ],
+        answer: -1,
     },
     {
         no: 4,
@@ -30,7 +33,8 @@ let questions = [
         options:[
             "principles",
             "emotions",
-        ]
+        ],
+        answer: -1,
     },
     {
         no: 5,
@@ -38,7 +42,8 @@ let questions = [
         options:[
             "convincing",
             "touching",
-        ]
+        ],
+        answer: -1,
     },
     {
         no: 6,
@@ -46,6 +51,7 @@ let questions = [
         options:[
             "đúng deadline",
             "mỗi lúc tùy hứng",
-        ]
+        ],
+        answer: -1,
     }
 ];

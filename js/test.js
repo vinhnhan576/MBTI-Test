@@ -1,11 +1,13 @@
 const notesbox = document.querySelector(".notes-box");
 const btnstart = notesbox.querySelector(".buttons #start");
 const testbox = document.querySelector(".test-page .test-box");
+const resultbox = document.querySelector(".test-page .result-box");
 
 btnstart.onclick = ()=>{
     // notesbox.classList.remove("activeNotes");
     testbox.classList.add("activeTest");
     console.log("clicked");
+    btnprev.classList.add("disableButton");
     showQuestion(0);
 }
 
@@ -15,19 +17,34 @@ const btnnext = testbox.querySelector(".next-question");
 const btnprev = testbox.querySelector(".prev-question");
 
 btnnext.onclick = ()=>{
-    if(noquestion < questions.length - 1){
+    if(noquestion == 0){
+        btnprev.classList.remove("disableButton");
+    }
+    if(noquestion < questions.length - 2){
+        noquestion++;
+        showQuestion(noquestion);
+    } 
+    else if(noquestion < questions.length - 1){
+        btnnext.innerHTML = "Hoàn thành";
         noquestion++;
         showQuestion(noquestion);
     }
     else{
-        console.log("Test completed");
+        testbox.classList.remove("activeTest");
+        resultbox.classList.add("activeResult");
     }
 }
 
 btnprev.onclick = ()=>{
     if(noquestion > 0){
+        if(noquestion == 1){
+        btnprev.classList.add("disableButton");
+        }
         noquestion--;
         showQuestion(noquestion);
+    }
+    if(noquestion < questions.length - 1){
+        btnnext.innerHTML = "Tiếp theo";
     }
 }
 
@@ -48,12 +65,37 @@ function showQuestion(index){
     mpclist.innerHTML = mpclisttag;
 
     const mpc = mpclist.querySelectorAll(".mpc");
-    for(let i = 0; i < mpclist.length; i++){
-        mpc[i].setAttribute("onclick", "optionSelected:(this)");
+    if(questions[index].answer != -1){
+        mpc[questions[index].answer].classList.add("chosenAnswer");
+    }
+
+    for(let i = 0; i < mpc.length; i++){
+        mpc[i].setAttribute("onclick", "optionSelected(this)");
     }
 }
 
 function optionSelected(answer){
-    noquestion++;
-    showQuestion(noquestion);
+    if(noquestion == 0){
+        btnprev.classList.remove("disableButton");
+    }
+    const mpclist = document.querySelector(".mpc-list");
+    const mpc = mpclist.querySelectorAll(".mpc");
+    for(let i = 0; i < mpc.length; i++){
+        if(mpc[i] == answer)
+            questions[noquestion].answer = i;
+    }
+    if(noquestion < questions.length - 2){
+        noquestion++;
+        showQuestion(noquestion);
+    }
+    else if(noquestion < questions.length - 1){
+        btnnext.innerHTML = "Hoàn thành";
+        noquestion++;
+        showQuestion(noquestion);
+    }
+    else{
+        btnnext.innerHTML = "Hoàn thành";
+        testbox.classList.remove("activeTest");
+        resultbox.classList.add("activeResult");
+    }
 }

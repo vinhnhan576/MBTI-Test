@@ -4,11 +4,12 @@ body {
 
 .test-page {
   width: 100%;
-  height: calc(100vh - 100px);
+  height: 100vh;
 }
 
 .notes-box,
-.test-box {
+.test-box,
+.result-box {
   position: absolute;
   top: 55%;
   left: 50%;
@@ -18,7 +19,8 @@ body {
 }
 
 .notes-box.activeNotes,
-.test-box.activeTest {
+.test-box.activeTest,
+.result-box.activeResult {
   z-index: 5;
   opacity: 1;
   pointer-events: auto;
@@ -31,7 +33,6 @@ body {
   background: white;
   border-radius: 8px;
   opacity: 1;
-  /* pointer-events: none; */
   transform: translate(-50%, -50%) scale(0.9);
 }
 
@@ -55,7 +56,7 @@ body {
   margin: 20px 0;
 }
 
-.notes-box .buttons {
+.buttons {
   height: 90px;
   display: flex;
   align-items: center;
@@ -64,30 +65,36 @@ body {
   border-top: solid 1px rgb(208, 211, 216);
 }
 
-.notes-box .buttons button {
+.buttons button {
   margin: 0 20px;
-  height: 50px;
-  width: 140px;
-  /* border: 3px solid white; */
+  width: auto;
+  height: auto;
+  padding: 12px 35px;
+  border: 3px solid #1e1c30;
   font-size: 24px;
   font-weight: bold;
   transition: all 0.3s ease;
 }
 
-.buttons button.quit {
+.buttons button.quit,
+.buttons button.redo {
   border: 3px solid #1e1c30;
   background: white;
   color: #1e1c30;
 }
 
-.buttons button.quit:hover {
-  border: 0;
+.buttons button.quit:hover,
+.buttons button.redo:hover {
+  /* border: 0; */
   background: #1e1c30;
   color: white;
+  font-size: 27px;
 }
 
-.buttons button.start:hover {
-  background: #000000;
+.buttons button#start:hover,
+.buttons button.view-detail:hover {
+  background: black;
+  font-size: 27px;
 }
 
 .test-box {
@@ -149,6 +156,7 @@ section .mpc-list .mpc:last-child {
   margin-bottom: 0;
 }
 
+section .mpc-list .mpc.chosenAnswer,
 section .mpc-list .mpc:hover {
   color: white;
   background: #1e1c30;
@@ -189,6 +197,7 @@ footer button {
   outline: none;
   color: white;
   background: #1e1c30;
+  border: 3px solid #1e1c30;
   border-radius: 8px;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -196,4 +205,68 @@ footer button {
 
 footer button:hover {
   background: black;
+}
+
+footer button.prev-question.disableButton {
+  border: 3px solid #1e1c30;
+  background: white;
+  color: #1e1c30;
+}
+
+.result-box {
+  background: white;
+  height: auto;
+  width: 1000px;
+  padding: 30px 30px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  opacity: 0;
+  pointer-events: none;
+  transform: translate(-50%, -50%) scale(0.9);
+}
+
+#mbti-pic {
+  height: 450px;
+}
+
+.result-box .mbti-info {
+  height: 450px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  /* padding-right: 50px; */
+}
+
+.result-box .mbti-info .title {
+  padding-top: 20px;
+}
+
+.result-box .mbti-info .title div {
+  padding-right: 20px;
+  padding-left: 30px;
+}
+
+.result-box .mbti-info .title .intro {
+  font-size: 30px;
+}
+
+.result-box .mbti-info .title .mbti {
+  font-size: 56px;
+  color: green;
+  margin-bottom: 30px;
+}
+
+.result-box .mbti-info .title .mbti-detail {
+  font-size: 21px;
+  width: 600px;
+}
+
+.result-box .mbti-info .buttons {
+  border-top: 0;
+}
+
+.result-box .buttons {
+  padding: 0;
 }
