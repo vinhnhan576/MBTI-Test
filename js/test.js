@@ -93,10 +93,8 @@ function optionSelected(answer){
         noquestion++;
         showQuestion(noquestion);
     }
-    else{
-        btnnext.innerHTML = "Hoàn thành";
-        testbox.classList.remove("activeTest");
-        resultbox.classList.add("activeResult");
+    else {
+        showQuestion(noquestion);
     }
 }
 
