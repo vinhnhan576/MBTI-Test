@@ -99,3 +99,122 @@ function optionSelected(answer){
         resultbox.classList.add("activeResult");
     }
 }
+
+function calculateMBTI(){
+    let E, I, S, N, T, F, J, P = 0;
+    for(let i = 0; i < questions.length - 1; i++){
+        switch (i % 7) {
+            case 1:
+                if(question[i].answer > 0){
+                    if(question[i].answer == 1)
+                        E++;
+                    else
+                        I++;
+                }
+                break;
+            case 2, 3:
+                if(question[i].answer > 0){
+                    if(question[i].answer == 1)
+                        S++;
+                    else
+                        N++;
+                }
+                break;
+            case 4, 5:
+                if(question[i].answer > 0){
+                    if(question[i].answer == 1)
+                        T++;
+                    else
+                        F++;
+                }
+                break;
+            case 6, 0:
+                if(question[i].answer > 0){
+                    if(question[i].answer == 1)
+                        J++;
+                    else
+                        P++;
+                }
+                break;
+            default:
+                break;
+        }
+
+        const mbtipic = document.querySelector(".result-box .pic");
+        // const intro = document.querySelector(".result-box .mbti-info .title .intro");
+        const mbti = document.querySelector(".result-box .mbti-info .title .mbti");
+        const detail = document.querySelector(".result-box .mbti-info .title .mbti-detail");
+        if(E > I){
+            if(S > N){
+                if(T > F){
+                    if(J > P){
+
+                    }
+                    else{
+
+                    }
+                }
+                else{
+                    if(J > P){
+
+                    }
+                    else{
+
+                    }
+                }
+            }
+            else{
+                if(T > F){
+                    if(J > P){
+
+                    }
+                    else{
+
+                    }
+                }
+            }
+        }
+        else{
+            if(S > N){
+                if(T > F){
+                    if(J > P){
+
+                    }
+                    else{
+
+                    }
+                }
+                else{
+                    if(J > P){
+
+                    }
+                    else{
+
+                    }
+                }
+            }
+            else{
+                if(T > F){
+                    if(J > P){
+
+                    }
+                    else{
+
+                    }
+                }
+                else{
+                    if(J > P){
+                        //INFJ
+                        
+                    }
+                    else{
+                        //INFP
+                        mbtipic.innerHTML = '<img id="mbti-pic" src="./img/infp.png" alt="">';
+                        mbti.innerHTML = 'NGƯỜI HÒA GIẢI (INFP)';
+                        detail.innerHTML = "là một trong những nhóm hiếm nhất của 16 loại cá tính, chỉ chiếm 4,5% dân số thế giới. INFPs thường được đánh giá là chu đáo, tận tâm, tiêu chuẩn cao, nhạy cảm, linh hoạt.";
+                    }
+                }
+            }
+        }
+    }
+}
