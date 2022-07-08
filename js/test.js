@@ -148,28 +148,60 @@ function calculateMBTI(){
             if(S > N){
                 if(T > F){
                     if(J > P){
-
+                        //ESTJ
+                        mbtipic.innerHTML = '<img id="mbti-pic" src="./img/infj.png" alt="">';
+                        mbti.innerHTML = 'NGƯỜI CHE CHỞ (INFJ)';
+                        detail.innerHTML = "Có rất ít người mang tính cách này, chỉ chiếm khoảng 1% dân số và họ mang trong mình khá nhiều đặc điểm bất thường. Mặc dù sự hiện diện của họ có thể được miêu tả như là rất yên tĩnh, nhưng các INFJ lại thường có nhiều ý kiến ​​mạnh mẽ, đặc biệt là khi nói đến các vấn đề mà họ cho là thực sự quan trọng trong cuộc sống. Nếu một INFJ chiến đấu cho một điều gì đó thì nguyên nhân chính là vì họ tin vào ý tưởng riêng của mình, không phải vì một số lý do ích kỷ.";
                     }
                     else{
-
+                        //ESTP
+                        mbtipic.innerHTML = '<img id="mbti-pic" src="./img/infj.png" alt="">';
+                        mbti.innerHTML = 'NGƯỜI CHE CHỞ (INFJ)';
+                        detail.innerHTML = "Có rất ít người mang tính cách này, chỉ chiếm khoảng 1% dân số và họ mang trong mình khá nhiều đặc điểm bất thường. Mặc dù sự hiện diện của họ có thể được miêu tả như là rất yên tĩnh, nhưng các INFJ lại thường có nhiều ý kiến ​​mạnh mẽ, đặc biệt là khi nói đến các vấn đề mà họ cho là thực sự quan trọng trong cuộc sống. Nếu một INFJ chiến đấu cho một điều gì đó thì nguyên nhân chính là vì họ tin vào ý tưởng riêng của mình, không phải vì một số lý do ích kỷ.";
                     }
                 }
                 else{
                     if(J > P){
-
+                        //ESFJ
+                        mbtipic.innerHTML = '<img id="mbti-pic" src="./img/infj.png" alt="">';
+                        mbti.innerHTML = 'NGƯỜI CHE CHỞ (INFJ)';
+                        detail.innerHTML = "Có rất ít người mang tính cách này, chỉ chiếm khoảng 1% dân số và họ mang trong mình khá nhiều đặc điểm bất thường. Mặc dù sự hiện diện của họ có thể được miêu tả như là rất yên tĩnh, nhưng các INFJ lại thường có nhiều ý kiến ​​mạnh mẽ, đặc biệt là khi nói đến các vấn đề mà họ cho là thực sự quan trọng trong cuộc sống. Nếu một INFJ chiến đấu cho một điều gì đó thì nguyên nhân chính là vì họ tin vào ý tưởng riêng của mình, không phải vì một số lý do ích kỷ.";
                     }
                     else{
-
+                        //ESFP
+                        mbtipic.innerHTML = '<img id="mbti-pic" src="./img/infj.png" alt="">';
+                        mbti.innerHTML = 'NGƯỜI CHE CHỞ (INFJ)';
+                        detail.innerHTML = "Có rất ít người mang tính cách này, chỉ chiếm khoảng 1% dân số và họ mang trong mình khá nhiều đặc điểm bất thường. Mặc dù sự hiện diện của họ có thể được miêu tả như là rất yên tĩnh, nhưng các INFJ lại thường có nhiều ý kiến ​​mạnh mẽ, đặc biệt là khi nói đến các vấn đề mà họ cho là thực sự quan trọng trong cuộc sống. Nếu một INFJ chiến đấu cho một điều gì đó thì nguyên nhân chính là vì họ tin vào ý tưởng riêng của mình, không phải vì một số lý do ích kỷ.";
                     }
                 }
             }
             else{
                 if(T > F){
                     if(J > P){
-
+                        //ENTJ
+                        mbtipic.innerHTML = '<img id="mbti-pic" src="./img/infj.png" alt="">';
+                        mbti.innerHTML = 'NGƯỜI CHE CHỞ (INFJ)';
+                        detail.innerHTML = "Có rất ít người mang tính cách này, chỉ chiếm khoảng 1% dân số và họ mang trong mình khá nhiều đặc điểm bất thường. Mặc dù sự hiện diện của họ có thể được miêu tả như là rất yên tĩnh, nhưng các INFJ lại thường có nhiều ý kiến ​​mạnh mẽ, đặc biệt là khi nói đến các vấn đề mà họ cho là thực sự quan trọng trong cuộc sống. Nếu một INFJ chiến đấu cho một điều gì đó thì nguyên nhân chính là vì họ tin vào ý tưởng riêng của mình, không phải vì một số lý do ích kỷ.";
                     }
                     else{
-
+                        //ENTP
+                        mbtipic.innerHTML = '<img id="mbti-pic" src="./img/infj.png" alt="">';
+                        mbti.innerHTML = 'NGƯỜI CHE CHỞ (INFJ)';
+                        detail.innerHTML = "Có rất ít người mang tính cách này, chỉ chiếm khoảng 1% dân số và họ mang trong mình khá nhiều đặc điểm bất thường. Mặc dù sự hiện diện của họ có thể được miêu tả như là rất yên tĩnh, nhưng các INFJ lại thường có nhiều ý kiến ​​mạnh mẽ, đặc biệt là khi nói đến các vấn đề mà họ cho là thực sự quan trọng trong cuộc sống. Nếu một INFJ chiến đấu cho một điều gì đó thì nguyên nhân chính là vì họ tin vào ý tưởng riêng của mình, không phải vì một số lý do ích kỷ.";
+                    }
+                }
+                else{
+                    if(J > P){
+                        //ENFJ
+                        mbtipic.innerHTML = '<img id="mbti-pic" src="./img/infj.png" alt="">';
+                        mbti.innerHTML = 'NGƯỜI CHE CHỞ (INFJ)';
+                        detail.innerHTML = "Có rất ít người mang tính cách này, chỉ chiếm khoảng 1% dân số và họ mang trong mình khá nhiều đặc điểm bất thường. Mặc dù sự hiện diện của họ có thể được miêu tả như là rất yên tĩnh, nhưng các INFJ lại thường có nhiều ý kiến ​​mạnh mẽ, đặc biệt là khi nói đến các vấn đề mà họ cho là thực sự quan trọng trong cuộc sống. Nếu một INFJ chiến đấu cho một điều gì đó thì nguyên nhân chính là vì họ tin vào ý tưởng riêng của mình, không phải vì một số lý do ích kỷ.";
+                    }
+                    else{
+                        //ENFP
+                        mbtipic.innerHTML = '<img id="mbti-pic" src="./img/infj.png" alt="">';
+                        mbti.innerHTML = 'NGƯỜI CHE CHỞ (INFJ)';
+                        detail.innerHTML = "Có rất ít người mang tính cách này, chỉ chiếm khoảng 1% dân số và họ mang trong mình khá nhiều đặc điểm bất thường. Mặc dù sự hiện diện của họ có thể được miêu tả như là rất yên tĩnh, nhưng các INFJ lại thường có nhiều ý kiến ​​mạnh mẽ, đặc biệt là khi nói đến các vấn đề mà họ cho là thực sự quan trọng trong cuộc sống. Nếu một INFJ chiến đấu cho một điều gì đó thì nguyên nhân chính là vì họ tin vào ý tưởng riêng của mình, không phải vì một số lý do ích kỷ.";
                     }
                 }
             }
@@ -178,34 +210,54 @@ function calculateMBTI(){
             if(S > N){
                 if(T > F){
                     if(J > P){
-
+                        //ISTJ
+                        mbtipic.innerHTML = '<img id="mbti-pic" src="./img/infj.png" alt="">';
+                        mbti.innerHTML = 'NGƯỜI CHE CHỞ (INFJ)';
+                        detail.innerHTML = "Có rất ít người mang tính cách này, chỉ chiếm khoảng 1% dân số và họ mang trong mình khá nhiều đặc điểm bất thường. Mặc dù sự hiện diện của họ có thể được miêu tả như là rất yên tĩnh, nhưng các INFJ lại thường có nhiều ý kiến ​​mạnh mẽ, đặc biệt là khi nói đến các vấn đề mà họ cho là thực sự quan trọng trong cuộc sống. Nếu một INFJ chiến đấu cho một điều gì đó thì nguyên nhân chính là vì họ tin vào ý tưởng riêng của mình, không phải vì một số lý do ích kỷ.";
                     }
                     else{
-
+                        //ISTP
+                        mbtipic.innerHTML = '<img id="mbti-pic" src="./img/infj.png" alt="">';
+                        mbti.innerHTML = 'NGƯỜI CHE CHỞ (INFJ)';
+                        detail.innerHTML = "Có rất ít người mang tính cách này, chỉ chiếm khoảng 1% dân số và họ mang trong mình khá nhiều đặc điểm bất thường. Mặc dù sự hiện diện của họ có thể được miêu tả như là rất yên tĩnh, nhưng các INFJ lại thường có nhiều ý kiến ​​mạnh mẽ, đặc biệt là khi nói đến các vấn đề mà họ cho là thực sự quan trọng trong cuộc sống. Nếu một INFJ chiến đấu cho một điều gì đó thì nguyên nhân chính là vì họ tin vào ý tưởng riêng của mình, không phải vì một số lý do ích kỷ.";
                     }
                 }
                 else{
                     if(J > P){
-
+                        //ISFJ
+                        mbtipic.innerHTML = '<img id="mbti-pic" src="./img/infj.png" alt="">';
+                        mbti.innerHTML = 'NGƯỜI CHE CHỞ (INFJ)';
+                        detail.innerHTML = "Có rất ít người mang tính cách này, chỉ chiếm khoảng 1% dân số và họ mang trong mình khá nhiều đặc điểm bất thường. Mặc dù sự hiện diện của họ có thể được miêu tả như là rất yên tĩnh, nhưng các INFJ lại thường có nhiều ý kiến ​​mạnh mẽ, đặc biệt là khi nói đến các vấn đề mà họ cho là thực sự quan trọng trong cuộc sống. Nếu một INFJ chiến đấu cho một điều gì đó thì nguyên nhân chính là vì họ tin vào ý tưởng riêng của mình, không phải vì một số lý do ích kỷ.";
                     }
                     else{
-
+                        //ISFP
+                        mbtipic.innerHTML = '<img id="mbti-pic" src="./img/infj.png" alt="">';
+                        mbti.innerHTML = 'NGƯỜI CHE CHỞ (INFJ)';
+                        detail.innerHTML = "Có rất ít người mang tính cách này, chỉ chiếm khoảng 1% dân số và họ mang trong mình khá nhiều đặc điểm bất thường. Mặc dù sự hiện diện của họ có thể được miêu tả như là rất yên tĩnh, nhưng các INFJ lại thường có nhiều ý kiến ​​mạnh mẽ, đặc biệt là khi nói đến các vấn đề mà họ cho là thực sự quan trọng trong cuộc sống. Nếu một INFJ chiến đấu cho một điều gì đó thì nguyên nhân chính là vì họ tin vào ý tưởng riêng của mình, không phải vì một số lý do ích kỷ.";
                     }
                 }
             }
             else{
                 if(T > F){
                     if(J > P){
-
+                        //INTP
+                        mbtipic.innerHTML = '<img id="mbti-pic" src="./img/infj.png" alt="">';
+                        mbti.innerHTML = 'NGƯỜI CHE CHỞ (INFJ)';
+                        detail.innerHTML = "Có rất ít người mang tính cách này, chỉ chiếm khoảng 1% dân số và họ mang trong mình khá nhiều đặc điểm bất thường. Mặc dù sự hiện diện của họ có thể được miêu tả như là rất yên tĩnh, nhưng các INFJ lại thường có nhiều ý kiến ​​mạnh mẽ, đặc biệt là khi nói đến các vấn đề mà họ cho là thực sự quan trọng trong cuộc sống. Nếu một INFJ chiến đấu cho một điều gì đó thì nguyên nhân chính là vì họ tin vào ý tưởng riêng của mình, không phải vì một số lý do ích kỷ.";
                     }
                     else{
-
+                        //INTJ
+                        mbtipic.innerHTML = '<img id="mbti-pic" src="./img/infj.png" alt="">';
+                        mbti.innerHTML = 'NGƯỜI CHE CHỞ (INFJ)';
+                        detail.innerHTML = "Có rất ít người mang tính cách này, chỉ chiếm khoảng 1% dân số và họ mang trong mình khá nhiều đặc điểm bất thường. Mặc dù sự hiện diện của họ có thể được miêu tả như là rất yên tĩnh, nhưng các INFJ lại thường có nhiều ý kiến ​​mạnh mẽ, đặc biệt là khi nói đến các vấn đề mà họ cho là thực sự quan trọng trong cuộc sống. Nếu một INFJ chiến đấu cho một điều gì đó thì nguyên nhân chính là vì họ tin vào ý tưởng riêng của mình, không phải vì một số lý do ích kỷ.";
                     }
                 }
                 else{
                     if(J > P){
                         //INFJ
-                        
+                        mbtipic.innerHTML = '<img id="mbti-pic" src="./img/infj.png" alt="">';
+                        mbti.innerHTML = 'NGƯỜI CHE CHỞ (INFJ)';
+                        detail.innerHTML = "Có rất ít người mang tính cách này, chỉ chiếm khoảng 1% dân số và họ mang trong mình khá nhiều đặc điểm bất thường. Mặc dù sự hiện diện của họ có thể được miêu tả như là rất yên tĩnh, nhưng các INFJ lại thường có nhiều ý kiến ​​mạnh mẽ, đặc biệt là khi nói đến các vấn đề mà họ cho là thực sự quan trọng trong cuộc sống. Nếu một INFJ chiến đấu cho một điều gì đó thì nguyên nhân chính là vì họ tin vào ý tưởng riêng của mình, không phải vì một số lý do ích kỷ.";
                     }
                     else{
                         //INFP
