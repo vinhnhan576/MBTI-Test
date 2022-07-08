@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap");
+
 body {
   background-color: rgb(229, 238, 237);
 }
@@ -29,7 +32,7 @@ body {
 
 .notes-box {
   width: 800px;
-  height: 520px;
+  height: 550px;
   background: white;
   border-radius: 8px;
   opacity: 1;
@@ -52,6 +55,8 @@ body {
 }
 
 .notes-box .notes-list .note {
+  font-family: "Cabin", sans-serif;
+  font-weight: 500;
   font-size: 21px;
   margin: 20px 0;
 }
@@ -134,6 +139,7 @@ body {
 
 .test-box section .question {
   font-size: 32px;
+  font-family: "Cabin", sans-serif;
 }
 
 .test-box section .mpc-list {
@@ -143,6 +149,7 @@ body {
 }
 
 section .mpc-list .mpc {
+  font-family: "Cabin", sans-serif;
   background: #ffffff;
   border: solid 3px #1e1c30;
   border-radius: 12px;

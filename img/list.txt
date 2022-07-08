@@ -20,28 +20,28 @@ let questions = [
     {
 
         no: 3,
-        question: "Bạn cảm thấy tồi tệ hơn khi",
+        question: "Là tồi tệ hơn khi",
         options:[
-            "luôn mơ mộng, đầu óc trên mây",
-            "luôn trong một tình trạng cố định, buồn tẻ",
+            "luôn mơ mộng, đầu óc trên mây"",
+            "luôn lặp lại một cách tẻ nhạt"",
         ],
         answer: -1,
     },
     {
         no: 4,
-        question: "Bạn bị ấn tượng hơn bởi",
+        question: "Bạn sẽ ấn tượng về ",
         options:[
-            "nguyên tắc, luật lệ",
+            "nguyên tắc",
             "cảm xúc",
         ],
         answer: -1,
     },
     {
         no: 5,
-        question: "Bạn bị thu hút bởi",
+        question: "Bạn sẽ chú trọng",
         options:[
             "lý lẽ thuyết phục",
-            "những điều cảm động",
+            "bị cảm động",
         ],
         answer: -1,
     },
@@ -67,8 +67,8 @@ let questions = [
         no: 8,
         question: "Tại các bữa tiệc, bạn thường",
         options:[
-            "ở lại đến cuối với tràn trề năng lượng",
-            "ra về sớm và thấy mệt mỏi thiếu năng lượng",
+            "ở lại đến cuối với nhiều năng lượng",
+            "ra về sớm và thấy mệt",
         ],
         answer: -1,
     },
@@ -85,14 +85,14 @@ let questions = [
         no: 10,
         question: "Bạn hứng thú với",
         options:[
-            "việc thực tế đã từng xảy ra",
+            "việc thực tế xảy ra",
             "việc có khả năng xảy ra",
         ],
         answer: -1,
     },
     {
         no: 11,
-        question: "Khi đánh giá người khác, bạn sẽ",
+        question: "Khi đánh giá người khác,bạn sẽ",
         options:[
             "tuân theo quy tắc, quy định",
             "dựa vào hoàn cảnh cụ thể",
@@ -101,7 +101,7 @@ let questions = [
     },
     {
         no: 12,
-        question: "Khi tiếp cận người khác, bạn thường",
+        question: "Khi tiếp cận người khác, bạn nghiêng về",
         options:[
             "có cái nhìn khách quan",
             "có cái nhìn chủ quan",
@@ -121,14 +121,14 @@ let questions = [
         no: 14,
         question: "Bạn bồn chồn với những việc",
         options:[
-            "chưa hoàn thành",
+            "chưa xong",
             "đã xong",
         ],
         answer: -1,
     },
     {
         no: 15,
-        question: "Trong các nhóm bạn của bạn khi có chuyện mới, bạn là người",
+        question: "Bạn là người",
         options:[
             "biết mọi thông tin nhanh nhất đầu tiên",
             "biết thông tin sau cùng",
@@ -227,7 +227,7 @@ let questions = [
     },
     {
         no: 26,
-        question: "Tồi tệ hơn khi đối xử",
+        question: "Tồi tệ hơn khi",
         options:[
             "không công bằng",
             "tàn nhẫn",
@@ -238,8 +238,8 @@ let questions = [
         no: 27,
         question: "Mọi người nên để mọi thứ",
         options:[
-            "diễn ra một cách kĩ lưỡng",
-            "diễn ra một cách tự nhiên",
+            "diễn ra kĩ lưỡng",
+            "diễn ra tự nhiên",
         ],
         answer: -1,
     },
@@ -247,8 +247,8 @@ let questions = [
         no: 28,
         question: "Bạn thấy thoải mái hơn khi",
         options:[
-            "đã mua được một thứ gì đó",
-            "có điều kiện để mua",
+            "đã mua một thứ gì đó",
+            "có khả năng và lựa chọn để mua",
         ],
         answer: -1,
     },
@@ -257,7 +257,7 @@ let questions = [
         question: "Trong công ty, bạn thường",
         options:[
             "khởi xướng câu chuyện",
-            "đợi người khác bắt đầu cuộc nói chuyện",
+            "đợi người khác khởi xướng để nói chuyện",
         ],
         answer: -1,
     },
@@ -272,7 +272,7 @@ let questions = [
     },
     {
         no: 31,
-        question: "Bạn cảm thấy trẻ em thường không",
+        question: "Trẻ em thường khồn",
         options:[
             "tự mình phát huy hết năng lực",
             "thỏa mãn hết trí tưởng tượng của bản thân",
@@ -362,19 +362,19 @@ let questions = [
     },
     {
         no: 41,
-        question: "Bạn thích những công việc",
+        question: "Bạn thích những việc",
         options:[
-            "có hợp đồng làm việc rõ ràng",
-            "không trịnh trọng, không có hợp đồng",
+            "giao trọn gói làm",
+            "làm hàng ngày theo lịch",
         ],
         answer: -1,
     },
     {
         no: 42,
-        question: "Bạn tìm kiếm những mọi thứ",
+        question: "Bạn tìm kiếm những điều",
         options:[
             "theo thứ tự",
-            "một cách ngẫu nhiên",
+            "ngẫu nhiên",
         ],
         answer: -1,
     },
@@ -383,7 +383,7 @@ let questions = [
         question: "Bạn thích kiểu",
         options:[
             "nhiều bạn bè nhưng không thân lắm",
-            "ít bạn nhưng cực thân",
+            "ít bạn nhưung cực thân",
         ],
         answer: -1,
     },
@@ -416,7 +416,7 @@ let questions = [
     },
     {
         no: 47,
-        question: "Bạn thấy điều nào ở mình giá trị hơn",
+        question: "Bạn thấy điều nào ơ mình giá trị hơn",
         options:[
             "kiên định, vững vàng",
             "toàn tâm, cống hiến",
@@ -427,17 +427,17 @@ let questions = [
         no: 48,
         question: "Bạn thích",
         options:[
-            "một công bố không đổi",
-            "một tuyên bố sơ bộ, chưa chắc chắn",
+            "một công bố cuối cùng không đổi",
+            "mỗi tuyên bố dự kiến ban đầu",
         ],
         answer: -1,
     },
     {
         no: 49,
-        question: "Bạn thấy thoải mái hơn",
+        question: "Bạn thấy thoải mái hơn khi",
         options:[
             "trước khi đưa ra quyết định",
-            "sau khi đã đưa ra quyết định",
+            "sau khi đưa ra quyết định",
         ],
         answer: -1,
     },
@@ -446,7 +446,7 @@ let questions = [
         question: "Bạn thấy mình",
         options:[
             "dễ bắt chuyện với người lạ",
-            "khó nói chuyện với người lạ",
+            "có ít điều để nói với người lạ",
         ],
         answer: -1,
     },
@@ -482,7 +482,7 @@ let questions = [
         question: "Bạn có xu hướng nhiều hơn về",
         options:[
             "công bằng, vô tư",
-            "thông cảm, đồng cảm",
+            "thông cảm. đồng cảm",
         ],
         answer: -1,
     },
@@ -626,7 +626,7 @@ let questions = [
         question: "bạn thiên về",
         options:[
             "hành động cẩn trọng",
-            "hànhd động tự nhiên, tự phát",
+            "hànhd động tự nhiên, tự phát ",
         ],
         answer: -1,
     }

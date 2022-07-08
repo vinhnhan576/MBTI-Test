@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
+
 svg {
   display: block;
 }
@@ -84,6 +86,7 @@ h1 {
 }
 
 p {
+  font-family: 'Cabin', sans-serif;
   margin-top: 40px;
   margin-right: 120px;
   font-size: 36px;
