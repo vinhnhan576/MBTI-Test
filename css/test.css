@@ -216,8 +216,9 @@ footer button.prev-question.disableButton {
 .result-box {
   background: white;
   height: auto;
-  width: 1000px;
+  width: auto;
   padding: 30px 30px;
+  padding-right: 50px;
   border-radius: 10px;
   display: flex;
   align-items: center;
@@ -244,7 +245,7 @@ footer button.prev-question.disableButton {
 }
 
 .result-box .mbti-info .title div {
-  padding-right: 20px;
+  /* padding-right: 20px; */
   padding-left: 30px;
 }
 
@@ -259,8 +260,9 @@ footer button.prev-question.disableButton {
 }
 
 .result-box .mbti-info .title .mbti-detail {
-  font-size: 21px;
+  font-size: 16px;
   width: 600px;
+  margin-bottom: 30px;
 }
 
 .result-box .mbti-info .buttons {
